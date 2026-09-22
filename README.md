@@ -87,6 +87,10 @@ services:
       - handbrake-server
 ```
 
+### Deploy with Easypanel
+
+[Easypanel](https://easypanel.io) is a self-hosted Docker deployment platform, and HandBrake Web has a one-click deployment template there: https://easypanel.io/templates/handbrake-web - it deploys both the server and a worker as separate services with the shared `/video` volume wired up automatically.
+
 ## Usage
 
 ### Presets
